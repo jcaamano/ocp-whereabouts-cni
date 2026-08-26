@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+code-generator/
+vendor/*
+
 # Test binary, build with `go test -c`
 *.test
 
@@ -17,3 +20,7 @@ bin/
 /github.com/
 
 .idea/
+
+#Claude 
+CLAUDE.local.md
+./claude
