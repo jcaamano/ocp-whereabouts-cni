@@ -5,8 +5,9 @@
 *.so
 *.dylib
 
-code-generator/
-vendor/*
+# CARRY downstream where we vendor
+# code-generator/
+# vendor/*
 
 # Test binary, build with `go test -c`
 *.test
